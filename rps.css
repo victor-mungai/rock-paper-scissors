@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(to left, hsl(214, 47%, 23%) , hsl(237, 49%, 15%));
+    font-family: 'Barlow semi condensed';
+}
+.header{
+    display: flex;
+    border: 1.5px;
+    border-style: solid;
+    border-color: hsl(217, 16%, 45%) ;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    justify-content: space-between;
+    justify-self: center;
+    
+}
+.logo{
+    width: 80px;
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding-left:  20px;
+    padding-right: 20px;
+    border-radius: 3px;
+}
+.score_header{
+    font-size: 8px;
+    color:hsl(229, 64%, 46%)
+}
+.score_number{
+    justify-self: center;
+    font-size: 28px;
+    font-weight:900;
+    color:hsl(229, 25%, 31%);
+}
+.select{
+   display: flex;
+   position: relative;
+   margin-top: 150px;
+   margin-right: 30px;
+}
+.bg-triangle{
+    justify-content: center;
+    margin-left: 80px;
+    width:200px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    height:80px;
+    width: 80px;
+    border-radius: 40px;
+    background-color: white;
+}
+.icon_paper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: hsl(230, 89%, 62%);
+    box-shadow: inset -1px -5px 2px hsl(230, 55%, 44%);
+}
+.paper{
+    margin-left: 10px;
+    width: 50px;
+    height: 60px;
+}
+.scissors{
+    margin-left: 10px;
+    width: 50px;
+    height: 60px;
+}
+.rock{
+    margin-left: 10px;
+    width: 50px;
+    height: 60px;
+}
+.icon_scissors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -30px;
+    top: -20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:  hsl(40, 84%, 53%);
+    box-shadow: inset -1px -5px 2px  hsl(39, 89%, 35%); 
+}
+.icon_rock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+    bottom: -10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: hsl(349, 71%, 52%);
+    box-shadow: inset -1px -5px 2px hsl(349, 67%, 38%)
+}
