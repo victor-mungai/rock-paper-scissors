@@ -232,6 +232,9 @@ body{
         margin-bottom:-50px;
         margin-left: -10px;
     }
+    .rules_img{
+        margin-left:-30px;
+    }
 }
 @media(min-width:700px){
     .selections{
