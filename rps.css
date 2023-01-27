@@ -227,6 +227,11 @@ body{
     }
 
 }
+@media(max-height:700px){
+    .rules_btn{
+        margin-bottom:-50px;
+    }
+}
 @media(min-width:700px){
     .selections{
         width: 400px;
