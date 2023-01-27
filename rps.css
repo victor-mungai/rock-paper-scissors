@@ -230,6 +230,7 @@ body{
 @media(max-height:700px){
     .rules_btn{
         margin-bottom:-50px;
+        margin-left: -10px;
     }
 }
 @media(min-width:700px){
